@@ -10,6 +10,6 @@ jobs:
 
     steps:
     - name: Auto Review
-      uses: jasonetco/review-action@v2
+      uses: Dvs-git/calcom
       with:
         reviewers: Dvs-git
