@@ -1,0 +1,15 @@
+name: Auto Review
+
+on:
+  pull_request:
+    types: [opened, reopened, synchronize]
+
+jobs:
+  auto-review:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Auto Review
+      uses: jasonetco/review-action@v2
+      with:
+        reviewers: Dvs-git
