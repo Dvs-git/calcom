@@ -10,6 +10,6 @@ jobs:
 
     steps:
     - name: Auto Review
-      uses: Dvs-git/calcom
+      uses: Dvs-git/calcom@v2
       with:
         reviewers: Dvs-git
